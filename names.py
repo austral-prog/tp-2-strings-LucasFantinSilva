@@ -10,4 +10,3 @@ def names():
     print(completeName.title())
     print(completeName.upper())
     print("\t"+completeName.lower())
-#names()

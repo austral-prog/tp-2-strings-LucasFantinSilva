@@ -17,5 +17,3 @@ def change():
     print(entero)
     print("Centavos:")
     print((round(centavos)))
-
-#change()

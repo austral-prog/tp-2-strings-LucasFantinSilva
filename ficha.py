@@ -41,10 +41,10 @@ def ficha():
     print(f"Caracteres en nombre: {len(nombre.strip())}")
     print(f"Iniciales: {nombre[0].upper()+nombre[inicial+1].upper()}")
     print(f"Usuario: {apellido.lower()}.{nombre[0:inicial].lower()}")
-    print(f"Email valido: {"@" in mail}")
-    print(f"Dominio: {mail[mail.find("@")+1:].lower()}")
-    print(f"Nombre para archivo: {nombre.strip().title().replace(" ","_")}")
-    print(f"Cantidad de a: {nombre.count("a")}")
+    print(f"Email valido: {'@' in mail}")
+    print(f"Dominio: {mail[mail.find('@')+1:].lower()}")
+    print(f"Nombre para archivo: {nombre.strip().title().replace(' ' ,'_')}")
+    print(f"Cantidad de a: {nombre.count('a')}")
     print(f"Codigo secreto: {nombre[-1::-1].upper()}")
     print(f"Nota 1: {nota1}")
     print(f"Nota 2: {nota2}")
@@ -53,7 +53,3 @@ def ficha():
     print(f"Promedio: {(nota1+nota2+nota3)/3}")
     print(f"Promedio entero: {int((nota1+nota2+nota3)/3)}")
     print("=" * 24)
-
-
-
-

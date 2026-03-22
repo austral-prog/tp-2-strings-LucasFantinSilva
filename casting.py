@@ -12,5 +12,3 @@ def casting():
     print(f"Total: {total}")
 
 
-
-
